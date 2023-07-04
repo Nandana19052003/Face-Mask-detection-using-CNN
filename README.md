@@ -1,66 +1,12 @@
 # Face-Mask-detection-using-CNN
+This project aims to detect whether a person is wearing a face mask or not using Convolutional Neural Networks (CNNs). The dataset used for training and evaluation consists of 7,553 RGB images with 3 color channels (RGB), categorized into two folders: "with_mask" and "without_mask". The "with_mask" folder contains 3,725 images of faces wearing masks, while the "without_mask" folder contains 3,828 images of faces without masks.
 
-The COVID-19 pandemic has 
-heightened the importance of face 
-mask usage as a crucial preventive 
-measure against the spread of the virus. 
-This study proposes a Face Mask 
-Detection system utilizing 
-Convolutional Neural Networks (CNNs) 
-to automatically identify whether 
-individuals are wearing face masks in 
-real-time.
-The proposed system employs a deep 
-learning approach to analyse images or 
-video frames captured from various 
-sources, such as surveillance cameras 
-or live streams. A pre-processing step is 
-performed initially to extract and 
-enhance facial regions from the input 
-data. These facial regions are then fed 
-into a CNN model, consisting of multiple 
-convolutional layers, pooling layers, and 
-fully connected layers, to extract 
-relevant features and classify the 
-presence or absence of face masks.
-To train the CNN model, a diverse 
-dataset is collected, comprising a large 
-number of annotated images of 
-individuals with and without face 
-masks. Data augmentation techniques, 
-such as rotation, scaling, and flipping, 
-are applied to increase the dataset's 
-variability and robustness. The model is 
-trained using popular optimization 
-algorithms, such as stochastic gradient 
-descent (SGD) or Adam, and fine-tuned 
-to achieve optimal accuracy and 
-generalization.
-The performance of the Face Mask 
-Detection system is evaluated using 
-standard metrics, including accuracy, 
-precision, recall, and F1 score, on a test 
-dataset that was not used during 
-training. The results demonstrate the 
-system's ability to accurately classify 
-face mask usage in real-world 
-scenarios. Additionally, the system's 
-performance is assessed under various 
-conditions, such as different lighting 
-conditions, camera angles, and face 
-orientations.
-The proposed Face Mask Detection 
-system can be implemented in various 
-domains, including healthcare facilities, 
-airports, public transport, and retail 
-establishments, to ensure compliance 
-with face mask guidelines and enhance 
-public safety. It can serve as an 
-automated monitoring tool, alerting 
-authorities in real-time about 
-individuals not adhering to face mask 
-protocols. The system's robustness, 
-accuracy, and scalability make it a 
-valuable solution for mitigating the 
-spread of infectious diseases and 
-maintaining public health.
+# Dataset Details
+Dataset from :
+https://www.kaggle.com/datasets/omkargurav/face-mask-dataset
+
+# Model Architecture and Performance
+A custom CNN architecture was designed and trained on the dataset for face mask detection. The model achieved a training accuracy of 94% and a validation accuracy of 96%
+
+# Conclusion
+This project demonstrates the application of CNNs for face mask recognition. The model was trained on a dataset consisting of 7,553 images, achieving high accuracy on both the training and validation sets. The trained model can be further fine-tuned or used as a starting point for other face mask detection applications.
